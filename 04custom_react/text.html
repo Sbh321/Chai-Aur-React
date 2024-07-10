@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li>Python</li>
+    </ul>
+
+    <div></div>
+  </body>
+
+  <script>
+    const ul = document.querySelector("ul");
+    const newli = document.createElement("li");
+    newli.appendChild(document.createTextNode("JavaScript"));
+    ul.append(newli);
+  </script>
+</html>

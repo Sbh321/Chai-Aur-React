@@ -12,7 +12,9 @@ function App() {
   return (
     <>
       <div className="main">
-        <h1>Otp Verification Screen</h1>
+        <p className="title">Account Verification</p>
+        <h1 className="title1">Enter 6-Digit PIN sent to you</h1>
+        <p className="guide">Look into console for the PIN</p>
         <OtpInput
           value={otp}
           onChange={setOtp}
